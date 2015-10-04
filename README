@@ -1,12 +1,8 @@
-Please see http://log4go.googlecode.com/
+Please see https://github.com/gnpkrish/log4go
 
 Installation:
-- Run `goinstall log4go.googlecode.com/hg`
+- Run `go get github.com/gnpkrish/log4go`
 
 Usage:
 - Add the following import:
-import l4g "log4go.googlecode.com/hg"
-
-Acknowledgements:
-- pomack
-  For providing awesome patches to bring log4go up to the latest Go spec
+import l4g "github.com/gnpkrish/log4go"
