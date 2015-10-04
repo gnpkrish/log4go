@@ -1,11 +1,15 @@
-// Copyright (C) 2010, Kyle Lemons <kyle@kylelemons.net>.  All rights reserved.
-
+/*
+* @Author: Narayanaperumal Gurusamy
+* @Date:   2015-10-04 23:00:40
+* @Last Modified by:   Narayanaperumal Gurusamy
+* @Last Modified time: 2015-10-04 23:01:15
+ */
 package log4go
 
 import (
+	"fmt"
 	"io"
 	"os"
-	"fmt"
 )
 
 var stdout io.Writer = os.Stdout

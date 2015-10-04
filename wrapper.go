@@ -1,11 +1,15 @@
-// Copyright (C) 2010, Kyle Lemons <kyle@kylelemons.net>.  All rights reserved.
-
+/*
+* @Author: Narayanaperumal Gurusamy
+* @Date:   2015-10-04 23:00:44
+* @Last Modified by:   Narayanaperumal Gurusamy
+* @Last Modified time: 2015-10-04 23:01:49
+ */
 package log4go
 
 import (
 	"errors"
-	"os"
 	"fmt"
+	"os"
 	"strings"
 )
 
